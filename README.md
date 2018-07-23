@@ -10,6 +10,8 @@ Thực hiện bởi [Hồ Anh Tiến](https://github.com/komatsu98)
 
 [PSD File](https://github.com/colombo-trainee/trainee_2018/blob/master/frontend/simple%20pc/1671.psd)
 
+[Link](https://github.com/komatsu98/html1/)
+
 ## Kiến thức nắm được
 
 Cắt HTML từ psd, fix cứng giao diện.
