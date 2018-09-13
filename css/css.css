@@ -5,7 +5,7 @@ body {
     padding: 120px 110px 8px 100px;
     font-size: 24px;
     box-sizing: border-box;
-    background: rgb(40,40,40);
+    background: rgb(40, 40, 40);
 }
 
 .container {
@@ -57,7 +57,7 @@ body {
 
 .item-1 .left .big {
     font-size: 100px;
-    font-weight: 800;
+    font-weight: bolder;
 }
 
 .item-1 .left .medium {
@@ -159,7 +159,7 @@ body {
 }
 
 .item-3 .left .white-small-div {
-    right:0;
+    right: 0;
     top: 125px;
 }
 
@@ -204,20 +204,23 @@ body {
     padding: 5px 0 5px 10px;
 
 }
-.contact :nth-child(3).grp :nth-child(2){
-    padding-top: 1px;
 
+.contact :nth-child(3).grp :nth-child(2) {
+    padding-top: 1px;
 }
+
 .item-3 .right {
-    padding-top:90px;
+    padding-top: 90px;
     z-index: 3;
 }
+
 .item-3 .right .big {
     font-size: 72px;
     text-align: right;
 }
-.item-3 .right :nth-child(3).big{
-    padding-top: 240px;
+
+.item-3 .right :nth-child(3).big {
+    padding-top: 220px;
 }
 
 .item-3 .right .y-white-small-div {
@@ -225,55 +228,59 @@ body {
     position: initial;
     float: right;
 }
+
 .item-3 .small {
     text-align: right;
 }
+
 .small.white {
     padding-bottom: 30px;
 }
+
 .item-3 .right .logo {
     box-sizing: border-box;
-    background: rgb(56,102,120);
+    background: rgb(56, 102, 120);
     height: 160px;
     position: relative;
     width: 840px;
     z-index: 1;
     margin-left: -44px;
-    margin-top: 49px;
-    padding-top:40px;
-    padding-right:0;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-right: 0;
     padding-left: 40px;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 
 }
+
 .logo .icon {
     display: block;
     padding: 10px 38px;
-    margin-top:auto;
-    margin-right:auto;
+    margin-top: auto;
+    margin-right: auto;
     height: 70%;
     position: relative;
-
 }
+
 .logo .icon > img {
     width: auto;
     float: left;
     box-sizing: border-box;
     display: inline-block;
-    margin-top:auto;
-    margin-right:auto;
+    margin-top: auto;
+    margin-right: auto;
     height: 100%;
-
 }
 
 .background-transparent {
     position: absolute;
-    height: 792px;
-    width:1300px;
+    height: 840px;
+    width: 1300px;
     z-index: 2;
-    background: rgb(21,180,227);
+    background: rgb(21, 180, 227);
     opacity: 0.5;
 }
+
 .white-small-div {
     position: relative;
     z-index: 3;
@@ -281,6 +288,7 @@ body {
     height: 25px;
     background: white;
 }
+
 .y-white-small-div {
     position: relative;
     z-index: 3;
@@ -288,19 +296,20 @@ body {
     height: 75px;
     background: white;
 }
-.text-yellow-color {
+
+.text-yellow {
     color: rgb(255, 204, 49);
 }
 
-.text-dark-color {
+.text-dark {
     color: rgb(36, 42, 49);
 }
 
-.background-dark-color {
+.background-dark {
     background-color: rgb(36, 42, 49);
 }
 
-.background-yellow-color {
+.background-yellow {
     background-color: rgb(255, 204, 49);
 }
 
@@ -308,9 +317,6 @@ body {
     padding-left: 112px;
 }
 
-.bordered {
-    /*border: 1px solid #efefef;*/
-}
 
 .yellow-bar {
     position: absolute;
@@ -319,16 +325,18 @@ body {
     height: 100%;
     width: 360px;
     z-index: 2;
-    /*background-color: rgb(255, 204, 49);*/
     border: 1px solid yellow;
 }
+
 .white {
     color: white;
 }
+
 .black {
     color: black;
 }
-.background-lighter-dark-color {
+
+.background-lighter-dark {
     background: rgb(56, 102, 120);
     color: rgb(156, 211, 238);
 }
